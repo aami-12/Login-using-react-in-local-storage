@@ -27,8 +27,8 @@ function Registration() {
 
         } else {
             setFlag(false);
-            localStorage.setItem("hardikSubmissionEmail", JSON.stringify(email));
-            localStorage.setItem("hardikSubmissionPassword", JSON.stringify(password));
+            localStorage.setItem("SubmissionEmail", JSON.stringify(email));
+            localStorage.setItem("SubmissionPassword", JSON.stringify(password));
             console.log("Saved in Local Storage");
 
             setLogin(!login)
@@ -53,7 +53,7 @@ function Registration() {
         <>
             <nav className="navbar navbar-light">
                 <div className="container" onClick={infoClick}>
-                    <h4 className="btn btn-dark btn-lg btn-block">Company Info</h4>
+                    <h4 className="btn btn-dark btn-lg btn-block">Company Info and Logout</h4>
                 </div>
             </nav>
             {info ? <div> {login ? <form onSubmit={handleFormSubmit}>
@@ -83,8 +83,8 @@ function Registration() {
                 <div className="form-group">
                     <label>Choose your Profession</label>
                     <Form.Control as="select" onChange={(event) => setProfession(event.target.value)} >
+                        <option>Select Option</option>
                         <option>Developer</option>
-                        <option>Artist</option>
                         <option>Photographer</option>
                         <option>Team Player</option>
                         <option>Full Stack</option>
@@ -104,10 +104,10 @@ function Registration() {
 
             </form> : <Login />}
             </div> : <div>
-                    <p><strong>Company:</strong> Geeksynergy Technologies PVT Ltd</p>
-                    <p><strong>Address:</strong> Sanjaynagar, Bengaluru-56</p>
+                    <p><strong>Company:</strong> V4-LAB Software Solutions PVT Ltd</p>
+                    <p><strong>Address:</strong> Hosa Road, Bengaluru-56</p>
                     <p><strong>Phone:</strong> XXXXXXXXXX09</p>
-                    <p><strong>Email:</strong> XXXXXXXX@gmail.com</p>
+                    <p><strong>Email:</strong> v4labs@gmail.com</p>
                 </div>}
         </>
     )

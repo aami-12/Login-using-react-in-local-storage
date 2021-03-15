@@ -14,8 +14,8 @@ function Login() {
 
     function handleLogin(e) {
         e.preventDefault();
-        let pass = localStorage.getItem('hardikSubmissionPassword').replace(/"/g, "");
-        let mail = localStorage.getItem('hardikSubmissionEmail').replace(/"/g, "");
+        let pass = localStorage.getItem('SubmissionPassword').replace(/"/g, "");
+        let mail = localStorage.getItem('SubmissionEmail').replace(/"/g, "");
         // .replace(/"/g,"") is used to remove the double quotes for the string
 
         if (!emaillog || !passwordlog) {
