@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Login-using-react-in-local-storage/static/css/main.18ded066.chunk.css",
+    "main.js": "/Login-using-react-in-local-storage/static/js/main.6bce2c2b.chunk.js",
+    "main.js.map": "/Login-using-react-in-local-storage/static/js/main.6bce2c2b.chunk.js.map",
+    "runtime-main.js": "/Login-using-react-in-local-storage/static/js/runtime-main.18314da4.js",
+    "runtime-main.js.map": "/Login-using-react-in-local-storage/static/js/runtime-main.18314da4.js.map",
+    "static/css/2.150d169a.chunk.css": "/Login-using-react-in-local-storage/static/css/2.150d169a.chunk.css",
+    "static/js/2.e62ce97e.chunk.js": "/Login-using-react-in-local-storage/static/js/2.e62ce97e.chunk.js",
+    "static/js/2.e62ce97e.chunk.js.map": "/Login-using-react-in-local-storage/static/js/2.e62ce97e.chunk.js.map",
+    "index.html": "/Login-using-react-in-local-storage/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Login-using-react-in-local-storage/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.18ded066.chunk.css.map": "/Login-using-react-in-local-storage/static/css/main.18ded066.chunk.css.map",
+    "static/js/2.e62ce97e.chunk.js.LICENSE.txt": "/Login-using-react-in-local-storage/static/js/2.e62ce97e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18314da4.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.e62ce97e.chunk.js",
+    "static/css/main.18ded066.chunk.css",
+    "static/js/main.6bce2c2b.chunk.js"
+  ]
+}
